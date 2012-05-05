@@ -1,0 +1,14 @@
+all: build-java build-js
+
+clean:
+	cd src/java && $(MAKE) clean
+	cd src/java && $(MAKE) clean
+
+build-java:
+	@echo "Building java ..."
+	cd src/java && $(MAKE)
+
+build-js:
+	@echo "Building js ..."
+	cd src/java && $(MAKE)
+
