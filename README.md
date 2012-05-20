@@ -1,6 +1,6 @@
 gto
 ===
-A inter-programming-language performance benchmark based on the V8 benchmark suite
+An inter-programming-language performance benchmark based on the V8 benchmark suite
 
 > This project is still in it's very early stages. Please bear with it until things stabilise.
 
@@ -9,7 +9,15 @@ A inter-programming-language performance benchmark based on the V8 benchmark sui
 
 ### About
 * * * * * * * * * * * * * * *
-With programming languages becoming more and more 'high-level', estimating the performance of a block of code is no longer very straight-forward. **gto** is performance benchmark based on application specific tests rather than generic performance test. The tests are based on the [V8 benchmark suite](http://v8.googlecode.com/svn/data/benchmarks/v7/run.html).
+For developers who want to compare the relative performance of different 
+languages / runtime environments **gto** is a benchmarking tool that is 
+application oriented and written in multiple languages. Unlike most benchmarking suites
+which focus on generic performance of the native platform, this tool compares the 
+application specific performances on the native platform as well as different runtimes.
+
+### License
+* * * * * * * * * * * * * * *
+This project is licensed under the GNU GPL version 3 or greater.
 
 ### Usage
 * * * * * * * * * * * * * * *

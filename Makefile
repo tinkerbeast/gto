@@ -1,4 +1,4 @@
-all: build-java build-js
+all: build-java build-js build-c
 
 clean:
 	cd src/java && $(MAKE) clean
@@ -7,6 +7,10 @@ clean:
 build-java:
 	@echo "Building java ..."
 	cd src/java && $(MAKE)
+
+build-c:
+	@echo "Building C ..."
+	cd src/c && $(MAKE)
 
 build-js:
 	@echo "Building js ..."
